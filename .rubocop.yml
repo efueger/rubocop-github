@@ -1,4 +1,4 @@
-require: rubocop/cop/github
+# require: rubocop/cop/github
 
 AllCops:
   DisabledByDefault: true
