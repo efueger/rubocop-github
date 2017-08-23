@@ -28,4 +28,4 @@ exclude_paths:
 # - test/prepare:
 fetch:
 - url: "https://raw.githubusercontent.com/hintmedia/hint_style_config/master/.hint_rubocop.yml"
-  path: ".hint_rubocop.yml"
+  # path: ".hint_rubocop.yml"
