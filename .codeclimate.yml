@@ -1,4 +1,8 @@
 ---
+fetch:
+- url: "https://raw.githubusercontent.com/hintmedia/hint_style_config/master/.hint_rubocop.yml"
+  path: ".hint_rubocop.yml"
+
 engines:
   duplication:
     enabled: false
@@ -12,8 +16,8 @@ engines:
     enabled: false
   rubocop:
     enabled: true
-    config:
-      file: .hint_rubocop.yml
+    # config:
+    #   # file: .hint_rubocop.yml
 ratings:
   paths:
   - "**.inc"
@@ -26,6 +30,3 @@ ratings:
 exclude_paths:
 # - config/
 # - test/prepare:
-fetch:
-- url: "https://raw.githubusercontent.com/hintmedia/hint_style_config/master/.hint_rubocop.yml"
-  # path: ".hint_rubocop.yml"
