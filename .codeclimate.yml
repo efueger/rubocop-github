@@ -1,0 +1,31 @@
+---
+engines:
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  fixme:
+    enabled: false
+  rubocop:
+    enabled: true
+    config:
+      file: .hint_rubocop.yml
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+# - config/
+# - test/prepare:
+fetch:
+- url: "https://raw.githubusercontent.com/hintmedia/hint_style_config/master/.hint_rubocop.yml"
+  path: ".hint_rubocop.yml"
